@@ -1,0 +1,6 @@
+streamlit
+streamlit-authenticator
+streamlit-extras
+SQLAlchemy==1.4
+plotly
+streamlit-plotly-events
