@@ -3,7 +3,7 @@ sys.path.append(r'utils')
 import streamlit as st
 
 # Set page configurations
-st.set_page_config(page_title="Founder's Connect", page_icon="🚀", layout="centered")
+st.set_page_config(page_title="Just Got Funded", page_icon="🚀", layout="centered")
 
 import helpers
 from streamlit_extras.switch_page_button import switch_page 
@@ -20,11 +20,11 @@ def landing_page():
     # st.image('logo.png', width=200)
 
     # Page Heading
-    st.title("Welcome to Founder's Connect 🚀")
+    st.title("Welcome to Just Got Funded 🚀")
     st.write("Connecting Startups with the Perfect Investors!")
 
     st.write("""
-    **Founder's Connect** is the premier platform where startups meet their ideal investors.
+    **JxtGotFunded** is the premier platform where startups meet their ideal investors.
     Dive into a world of opportunities and let us find the perfect match for your entrepreneurial journey.
     Your dreams deserve the right backing. Start now!
     """)
